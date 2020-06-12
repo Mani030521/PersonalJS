@@ -1,0 +1,43 @@
+.mainSection p {
+  font-weight: 700;
+  margin: 0;
+  padding-top: 10px;
+}
+.Username {
+  float: right;
+  padding-right: 40px;
+  padding-top: 5px;
+  display: inline-block;
+}
+.Username p {
+  font-weight: 700;
+  color: #ea3546;
+  margin: 0;
+  padding-top: 10px;
+}
+.Login {
+  float: right;
+  padding-right: 40px;
+  padding-top: 5px;
+  display: inline-block;
+}
+.Signup {
+  float: right;
+  padding-right: 50px;
+  padding-top: 5px;
+  display: inline-block;
+}
+.mainSection {
+  height: 50px;
+  text-align: center;
+  background-color: black;
+}
+
+a {
+  color: #ea3546;
+  text-decoration: none;
+}
+
+#homePageLink {
+  display: inline-block;
+}

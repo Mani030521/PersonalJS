@@ -1,0 +1,49 @@
+.products{background:transparent url('../../../../assests/back1.jpg') fixed repeat;width:100%}
+.products .container{padding-top:100px;padding-bottom: 100px}
+.products .container .row{margin:10px auto;}
+.products .col-xs-12{padding:0px;}
+.products .col-xs-12 img{width:100%;}
+.prod-sec{position:relative}
+
+.prod-img-box
+{
+  width:100% !important;
+  position: relative;z-index: 5;
+    -moz-transition:all 0.5s linear;
+  -webkit-transition:all 0.5s linear;
+  -ms-transition:all 0.5s linear;
+  -o-transition:all 0.5s linear;
+}
+.prod-img-box:hover
+{
+  -moz-transform:scale(1.05);
+  z-index:10;
+}
+.prod-hover
+{
+  position: absolute;top:0px;left:0px;width:100%;height:100%;
+  background:rgba(34, 7, 7, 0.75);opacity:0;
+  -moz-transition:all 0.5s linear;
+  -webkit-transition:all 0.5s linear;
+  -ms-transition:all 0.5s linear;
+  -o-transition:all 0.5s linear;
+}
+
+#img{
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  color: white
+}
+.prod-img-box:hover .prod-hover{opacity:1}
+.prodtb{position: absolute;bottom:0px;width:100%;padding:0px 0px 44px 44px;}
+.prodtxt span{color:#fff;font-weight:900;text-transform: uppercase;font-size:24px;font-style: italic;margin-bottom:20px;
+ -moz-transition:all 0.5s linear;
+  -webkit-transition:all 0.5s linear;
+  -ms-transition:all 0.5s linear;
+  -o-transition:all 0.5s linear;
+  cursor: pointer}
+.prodtxt span:hover{text-decoration:none;color:#3399CC;}
+.products .prod-heading{color:#fff;font-size:40px;font-weight:400;letter-spacing:0px;margin-top:100px;font-family:Sofia}
+
+.products .prod-heading:before{bottom:4px;width:80px;top:107%;}

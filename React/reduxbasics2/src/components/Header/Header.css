@@ -1,0 +1,23 @@
+.Box{
+    margin-left: 20px;
+    border: 2px solid red;
+    padding: 60px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 40px;
+}
+
+.Button{
+    margin-top: 20px;
+    width: 95px;
+    height: 45px;
+    cursor: pointer;
+     background-color: cadetblue;
+}
+
+.CounterText{
+    color: orangered
+}

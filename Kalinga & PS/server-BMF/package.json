@@ -1,0 +1,31 @@
+{
+  "name": "book-my-furniture-server",
+  "version": "0.0.0",
+  "description": "Applciation Server\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CBok\u001b[\u001b[B\u001b[B\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[okMyFurniture Application server",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@glcgitlab.southindia.cloudapp.azure.com:playground/webtech-july-2018/abhilash/projects/BookMyFurniture/BookMyFurniture_Server.git"
+  },
+  "keywords": [
+    "BookMyFurniture"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.0",
+    "express": "^4.16.3",
+    "firebase-admin": "^6.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.10",
+    "nodemailer": "^4.6.8",
+    "web-push": "^3.3.3"
+  }
+}

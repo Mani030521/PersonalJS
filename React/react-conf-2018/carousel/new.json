@@ -1,0 +1,102 @@
+{
+  "campaign": { 
+    "campaignId": 5, 
+    "locale": "en-US",
+    "entityType": "campaign"
+},
+  "order": {
+    "samples": [
+        {
+            "sampleQuantity": 1,
+            "partNum": "",
+            "reasonForPurchase": "",
+            "sampleId": "16",
+            "purchaseAmount": "0",
+            "additionalProp1": {}
+        }
+    ],
+    "reasonForRequest": "",
+    "purchaseAmount": "0",
+    "cashbackAmount": "",
+    "desiredStartDate": "",
+    "referrerUrl": "",
+    "channelType": "",
+    "optIns": "5 : 1 | 55 : 0",
+    "purchaseDate": "",
+    "landingPageUrl": "",
+    "iban": "",
+    "bic": "",
+    "bankAccountHolder": "",
+    "surveyResponseId": ""
+  },
+  "consumer": {
+    "URN": "",
+    "salutation": "",
+    "accessToken": "",
+    "consumerId": "",
+    "oneCPId": "",
+    "titleId": "",
+    "firstName": "asdasd",
+    "lastName": "asdasdd",
+    "dob": "1984-4-01",
+    "gender": "",
+    "emailAddress": "asdas@cm.com",
+    "telephoneNumber": "",
+    "mobileNumber": "",
+    "countryCode": "",
+    "orderFormData": "",
+    "optin": "",
+    "schoolSelection": "",
+    "phoneNumber": "",
+    "fax": "",
+    "optIns": "",
+    "UUID": "",
+    "team": "",
+    "periodId": ""
+  },
+  "address": [
+    {
+      "handlingAgencyContactId": 0,
+      "firstName": "asdasd",
+      "lastName": "asdasdd",
+      "emailAddress": "asdas@cm.com",
+      "phoneNumber": "",
+      "addressTypeCode": "INVOICE_ADDRESS",
+      "addressLine1": "",
+      "addressLine2": "",
+      "addressLine3": "",
+      "apartment": "",
+      "city": "",
+      "state": 0,
+      "street": "",
+      "StateCode": "",
+      "countryISOCode": "",
+      "zipCode": "12312",
+      "externalAddressId": "",
+      "latitude": 0,
+      "longitude": 0,
+      "countryId": 0
+    }
+  ],
+  "personUnderCareId": 0,
+  "media": [""],
+  "timeSlot": {
+    "TimeSlot": 0,
+    "orderId": "",
+    "slotId": ""
+  },
+  "response": [
+    {
+      "questionId": 0,
+      "answer": "",
+      "optionId": "",
+      "formId": ""
+    }
+  ],
+  "referral": [
+    {
+      "name": "",
+      "emailAddress": ""
+    }
+  ]
+}

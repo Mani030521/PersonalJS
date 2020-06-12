@@ -1,0 +1,2 @@
+GET https://sampling-sit.pgapi.io/v2/survey/questionnaire?campaignId=5&locale=en-us
+access_token: 5d1c58abcbfb810001b25af90b4fc74535f14ea0be60105016080475

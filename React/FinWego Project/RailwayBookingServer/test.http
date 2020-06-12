@@ -1,0 +1,109 @@
+POST http://localhost:8000/ticketing/booking-history
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IklzbWFpbCIsInBhc3N3b3JkIjoiJDJhJDEwJGdFenhDRFFJY0tubERjUU9zdDRyZC5EYjgxSTRJUXhhaEdmLklXQk95V2xQeEZXbkx2NFB1IiwiaWF0IjoxNTkwMzA5MzM4fQ.hSlAd1lTc8HyBABzPjSl-toCAtxtFE9Xv2SersgMUOs
+
+{
+    "user_ID": "5eca31d9e644d72925e148cf"
+}
+
+
+
+# POST  http://localhost:8000/ticketing/book-ticket
+# Content-Type: application/json
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IklzbWFpbCIsInBhc3N3b3JkIjoiJDJhJDEwJGdFenhDRFFJY0tubERjUU9zdDRyZC5EYjgxSTRJUXhhaEdmLklXQk95V2xQeEZXbkx2NFB1IiwiaWF0IjoxNTkwMzA5MzM4fQ.hSlAd1lTc8HyBABzPjSl-toCAtxtFE9Xv2SersgMUOs
+
+# {
+#     "Booking_Details": [{
+#         "Total_Seats": 6,
+#         "Total_Cost": 123123,
+#         "Train_Name": "Kumari Express",
+#         "Train_Source": {
+#         "Train_Source_station":"ManiK",
+#         "Train_Source_Time": "12:00"
+#         },
+#         "Train_Destination": {
+#         "asd":"asda",
+#         "Train_Destination_station": "asdasd",
+#         "Train_Destination_Time":"10:00"
+#         },
+#         "Passengers": [{
+#             "name": "Vijaasdaasdasasya",
+#             "age": 41,
+#             "gender": "Female"
+#         },{
+#             "name": "Vijaasdadasdasdasdasdsya",
+#             "age": 41,
+#             "gender": "Female"
+#         },{
+#             "name": "Vijaasdasya",
+#             "age": 41,
+#             "gender": "Female"
+#         },{
+#             "name": "Vijaasdasyasdasda",
+#             "age": 41,
+#             "gender": "Female"
+#         },{
+#             "name": "Vijaya",
+#             "age": 41,
+#             "gender": "Female"
+#         }, {
+#             "name": "Arjunan",
+#             "age": 51,
+#             "gender":"Male"
+#         }]
+#     }],
+#     "user_ID": "5eca31d9e644d72925e148cf"
+# }
+
+# GET http://localhost:8000/admin/train-list
+# Content-Type: application/json
+
+# {
+#     "userName": "Manikandan1",
+#     "password":"React@123"
+# }
+
+# POST http://localhost:8000/admin/add-train
+# Content-Type: application/json
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Ik1hbmlrYW5kYW4xIiwicGFzc3dvcmQiOiIkMmEkMTAkR2k0NGUyajgwL2M0N1MybnZoTXlYT1huYTJwanNic3VoQUpGNEVQU1lrVzVTaXlTM3VNcWkiLCJpYXQiOjE1OTAyNTYwMjJ9.ybMCLPZkd5hQ5TMsV52hvkxmPHFkMPPuG4iTbqEusBU
+
+# {
+#     "Train_Name": "Kumari Express",
+#     "Price": 123,
+#         "Train_Source": {
+#         "Train_Source_station":"ManiK",
+#         "Train_Source_Time": "12:00"
+#     },
+#     "Train_Destination": {
+#         "asd":"asda",
+#         "Train_Destination_station": "asdasd",
+#         "Train_Destination_Time":"10:00"
+#     },
+#     "Train_Seats": 1231
+#     }
+
+# {
+#     "Train_Name": "asdkjasasdasdads",
+#     "Train_Source": {
+#         "Train_Source_station":"ManiK",
+#         "Train_Source_Time": "12:00"
+#     },
+#     "Train_Destination": {
+#         "asd":"asda",
+#         "Train_Destination_station": "asdasd",
+#         "Train_Destination_Time":"10:00"
+#     },
+#     "Train_Seats": 1231
+# }
+
+# POST http://localhost:8000/user/sign-up
+# Content-Type: application/json
+
+# {
+#     "userName":"Ismail",
+#     "password":"ismail",
+#     "Age": 23,
+#     "Gender": "male",
+#     "firstName":"Ismail",
+#     "secondName":"Arjun"
+# }

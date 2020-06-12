@@ -1,0 +1,5 @@
+Next JS - Server Side Rendering
+react application is rendered on server , you need a server running for that,it will send the HTML into the react application
+
+Client Side Rendering
+send a barebone HTML file and rest is maintained in client side

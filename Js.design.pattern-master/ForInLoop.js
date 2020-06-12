@@ -1,0 +1,20 @@
+/*hasOwnProperty - use it to avoid the following scenario */
+
+var car = {
+	doors : 4,
+	windows : 4,
+	engine : 1,
+	hasOwnProperty: function(){
+
+	},
+}
+
+for (prop in car){
+	/*checking hasOwnProperty would discard unwanted properties 
+	from prototype chain and using it by calling Objects hasOwnProperty 
+	avoid make it jerkproof */
+	hasOwn = Object.prototype.hasOwnProperty;
+	if(hasOwn.call(car, prop)){
+		console.log(prop);
+	}
+}

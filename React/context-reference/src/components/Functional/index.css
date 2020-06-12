@@ -1,0 +1,78 @@
+.navigation {
+	width: 100%;
+	margin: auto;
+	border: 2px solid burlywood;
+	border-radius: 10px;
+	position: sticky;
+	top: 0;
+}
+
+.contents {
+	width: 942px;
+	margin: 0 auto;
+}
+
+.cardcontent {
+	width: 50%;
+	border: 2px solid burlywood;
+	border-radius: 10px;
+	height: 150px;
+	margin-left: 120px;
+}
+
+.content-info{
+	margin:auto;
+	font-size: 18px;
+	color: royalblue
+}
+.card {
+	width: 50%;
+	margin-top: 10px;
+	display: inline-block;
+	
+}
+.contents p {
+	text-align: center;
+	font-size: 18px;
+}
+
+.footer {
+	position: absolute;
+	font-size: 22px;
+	left: 0;
+	right: 0;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.loading {
+	text-align: center;
+	font-size: 22px;
+}
+
+.text {
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	margin: auto;
+}
+
+.text p {
+	cursor: pointer;
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.card {
+		width: 100%;
+		margin-top: 10px;
+		display: block;
+	}
+	.contents {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+}

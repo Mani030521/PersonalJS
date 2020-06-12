@@ -1,0 +1,97 @@
+.MainContainer{
+  max-width:770px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 500px;
+}
+
+.ButtonContainer{
+  display: inline;
+}
+
+.ImageButton{
+  width: 11px;
+}
+.ButtonMainContainer{
+  width: 300px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+
+.Buttons:hover img {
+  color:white;
+  background-color:white;
+  transition-duration: .2s;
+  -webkit-transition-duration: .11s;
+  -moz-transition-duration: .2s;
+}
+.Buttons:hover  {
+  color:white;
+  background-color:black;
+  transition-duration: .2s;
+  -webkit-transition-duration: .11s;
+  -moz-transition-duration: .2s;
+}
+.AddButton:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  }
+.AddButton {
+  cursor: pointer;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 260px;
+  margin-top: 20px;
+  margin-left: 67px;
+  background:black;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  }
+.Buttons{
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+  width: 79px;
+  font-family: helvetica;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid black;
+  color: black;
+  border-radius: 10px;
+  transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  background-color: white;
+  padding: 10px 30px;
+}
+input[type=text] {
+  padding: 0;
+  height: 30px;
+  position: relative;
+  left: 0;
+  outline: none;
+  border: 2px solid black;
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 16px;
+}
+
+.TypingBox {
+  width: 400px;
+  margin-left: 195px;
+  margin-top: 20px;
+  margin-right: -4px;
+}
+
